@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtue X Gaming Organization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #000;
+        }
+
+        header {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header .logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 100px;
+            height: auto;
+        }
+
+        .background-logo {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0.1;
+            width: 80%;
+            z-index: -1;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .profile-card {
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-card img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .profile-card h2 {
+            font-size: 1.5rem;
+            margin: 10px 0 5px;
+        }
+
+        .profile-card p {
+            margin: 5px 0;
+        }
+
+        .role {
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .group-photo {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .group-photo img {
+            width: 50%;
+            max-width: 500px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="New folder/WhatsApp Image 2025-01-14 at 11.04.17 PM.jpeg" alt="Virtue X Logo" class="logo">
+        <h1>Virtue X Gaming Organization</h1>
+        <img src="New folder/WhatsApp Image 2025-01-14 at 11.04.17 PM.jpeg" alt="Background Logo" class="background-logo">
+    </header>
+
+    <div class="container">
+        <div class="profile-card">
+            <img src="New folder/IMG_20240818_225336.jpg" alt="Vishnu's Photo" id="vishnu-photo">
+            <h2>Vishnu <span class="role">(IGL)</span></h2>
+            <p>In-Game Name: VTX Vin6</p>
+        </div>
+
+        <div class="profile-card">
+            <img src="New folder\WhatsApp Image 2025-01-16 at 11.21.19 PM.jpeg" alt="Bagywan's Photo" id="bagywan-photo">
+            <h2>Bagywan <span class="role">(Sniper)</span></h2>
+            <p>In-Game Name: VTX Balidan</p>
+        </div>
+
+        <div class="profile-card">
+            <img src="New folder/WhatsApp Image 2024-12-10 at 9.03.42 PM.jpeg" alt="Lemme's Photo" id="lemme-photo">
+            <h2>Lemme <span class="role">(Assaulter)</span></h2>
+            <p>In-Game Name: VTX Lemme</p>
+        </div>
+
+        <div class="profile-card">
+            <img src="New folder\WhatsApp Image 2025-01-14 at 12.38.00 AM.jpeg" alt="Varshit's Photo" id="varshit-photo">
+            <h2>Varshit <span class="role">(Team Manager)</span></h2>
+            <p>In-Game Name: VTX Vortex</p>
+        </div>
+    </div>
+
+    <div class="group-photo">
+        <h2>Team Group Photo</h2>
+        <img src="New folder/IMG_20231228_165859.jpg" alt="Team Group Photo">
+    </div>
+</body>
+</html>
